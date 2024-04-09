@@ -51,7 +51,7 @@ header > div {
 
 #digital {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 1, 5em;
   display: flex;
   position: relative;
   justify-content: center;
@@ -95,6 +95,7 @@ header > div {
   position: relative;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .primero {
@@ -115,7 +116,7 @@ header > div {
 }
 
 #info > h1 {
-  font-size: 50px;
+  font-size: 3em;
   font-style: italic;
   color: var(--mhf-color-3);
   height: 50%;
@@ -125,7 +126,7 @@ header > div {
 #info > p {
   color: var(--mhf-color-2);
   font-style: italic;
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
   height: 30%;
   margin-top: 30px;
@@ -179,13 +180,14 @@ header > div {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 90px;
+  height: 100%;
 }
 
 .segundo_h2 > h2 {
   display: flex;
   justify-content: center;
   width: 100%;
+  font-size: 2em;
 }
 
 .segundo_nav {
@@ -200,13 +202,13 @@ header > div {
   position: relative;
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
+  width: 80%;
   padding: 50px;
 }
 
 .ul_img > img {
   position: relative;
-  width: 60px;
+  width: 4em;
 }
 
 /* Tercero */
